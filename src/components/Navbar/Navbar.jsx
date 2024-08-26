@@ -8,7 +8,7 @@ const Navbar = () => {
       <a href="/">
         <img className="logo" src={assets.Logo} alt="" />
       </a>
-      <ul>
+      <ul className="body-2-medium-uppercase">
         {/* {menu_list_navbar.map((index, name, to) => {
           return <li key={index}>{name}</li>;
         })} */}
@@ -32,13 +32,13 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-right">
-      <button>
-        <span className="line" />
-        <span className="line" />
-        <span className="line" />
-      </button>
-        <button className="btn-language-normal">UA</button>
-        <button className="btn-primary-dark">Приєднатися</button>
+        <button className="harmburger">
+          <span className="line" />
+          <span className="line" />
+          <span className="line" />
+        </button>
+        <button className="btn-language-normal body2-regular">UA</button>
+        <button className="btn-primary-dark body-medium">Приєднатися</button>
       </div>
     </nav>
   );
