@@ -52,6 +52,32 @@
   background-color: #ffc851;
 }
 
-@media (max-width: 1280px) {
+.about-us-section {
+  /* width: 100%; */
+  background-color: #ffc851;
+}
+.main-about-us {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* background-color: aqua; */
+}
 
+.right-about-us {
+  background-color: red;
+
+  color: white;
+  /* width: 50%; */
+}
+
+.right-about-us h2 {
+  margin-bottom: 30px;
+}
+.right-about-us p {
+  margin-bottom: 34px;
+}
+
+.main-imgs-about-us {
+}
+@media (max-width: 1280px) {
 }

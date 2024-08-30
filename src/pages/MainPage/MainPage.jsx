@@ -31,10 +31,10 @@ const MainPage = () => {
           <button className="btn-paggination" />
         </div>
       </section>
-      <section>
-        <div className="main-about0us">
-          <div className="right-about-us">
-            <h2>Інфраструктурна рада</h2>
+      <section className="about-us-section">
+        <div className="main-about-us">
+          <div className="right-about-us ">
+            <h2 className="h2-medium-uppercase">Інфраструктурна рада</h2>
             <p>
               Сприємо формуванню ефективної транспортної системи в державі,
               протидіємо корупції та розвиваємо інфраструктуру
@@ -43,11 +43,28 @@ const MainPage = () => {
               <button>Приєднатися</button>
               <button>Дізнатися Більше</button>
             </div>
+            <div className="icons-sosial-about-us">
+              <a href="/node_modulesyt">
+                <icons.YtNormal className1="" />
+              </a>
+              <a href="/facebook">
+                <icons.FbNormal className1="" />
+              </a>
+            </div>
           </div>
-          <div className="icons-sosial-about-us">
-            <assets.YtNormal className1="" />
+          <div className="main-imgs-about-us">
+            <img src="../../assets/plane _with_sunset.png" alt="" />
+            <div
+              style={{
+                width: "200px",
+                height: "200px",
+                backgroundColor: "red",
+              }}
+            />
+            {/* <img src={assets.ImgtwoAboutUs} alt="" />
+            <img src={assets.ImgThreeAboutUs} alt="" />
+            <img src={assets.ImgfourAboutUs} alt="" /> */}
           </div>
-          <div className="left-about-us"></div>
         </div>
       </section>
       <div className="dummy-section"></div>

@@ -1,5 +1,37 @@
 import Logo from "./Logo.png";
 import ArrowDown from "./chevron-down.png";
+import ImgOneAboutUs from "./balazs-busznyak-El5zuQAtfeo-unsplash 1.png";
+import ImgtwoAboutUs from "./ring_road.png";
+import ImgThreeAboutUs from "./ship_conteiners.png";
+import ImgfourAboutUs from "./plane _with_sunset.png";
+
+function FbNormal({ className }) {
+  return (
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clipPath="url(#clip0_41_654)">
+        <path
+          d="M30.2339 32.0001C31.2091 32.0001 32 31.2094 32 30.234V1.76612C32 0.790625 31.2091 0 30.2339 0H1.76612C0.7905 0 0 0.790625 0 1.76612V30.234C0 31.2094 0.7905 32.0001 1.76612 32.0001H30.2339Z"
+          fill="#395185"
+        />
+        <path
+          d="M22.0794 32V19.6079H26.239L26.8618 14.7785H22.0794V11.695C22.0794 10.2968 22.4678 9.34388 24.4729 9.34388L27.0303 9.34276V5.02338C26.5878 4.96451 25.0698 4.83301 23.3038 4.83301C19.6165 4.83301 17.0923 7.08363 17.0923 11.2169V14.7785H12.922V19.6079H17.0923V32H22.0794Z"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_41_654">
+          <rect width="32" height="32" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}
 
 function YtNormal({ className }) {
   return (
@@ -40,8 +72,15 @@ function DropDown({ className }) {
   );
 }
 
-export const assets = { Logo, ArrowDown, YtNormal };
-export const icons = { DropDown };
+export const assets = {
+  Logo,
+  ArrowDown,
+  ImgOneAboutUs,
+  ImgtwoAboutUs,
+  ImgThreeAboutUs,
+  ImgfourAboutUs,
+};
+export const icons = { DropDown, YtNormal, FbNormal };
 
 export const menu_list_navbar = [
   {
