@@ -1,0 +1,16 @@
+.action {
+  color: white;
+  background: url("../../assets/BG_road.png");
+}
+
+.activeContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 57px 0px;
+}
+.activeContent p {
+  margin-right: 94px;
+}
+.activeContent {
+}

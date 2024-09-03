@@ -17,9 +17,12 @@ nav {
 .logo {
   width: 100px;
 }
-
+nav ul {
+  display: flex;
+  align-items: center;
+}
 nav ul li {
-  display: inline-block;
+  display: flex;
   list-style: none;
   margin: 5px 20px;
   color: #363636;
